@@ -5,9 +5,5 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-LOCAL_PATH := $(call my-dir)
-
-ifeq ($(TARGET_DEVICE),b4q)
-include $(call all-makefiles-under,$(LOCAL_PATH))
-include $(CLEAR_VARS)
-endif
+# For building with minimal manifest
+export ALLOW_MISSING_DEPENDENCIES=true
