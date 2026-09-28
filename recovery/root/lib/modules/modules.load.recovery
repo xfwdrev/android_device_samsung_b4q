@@ -437,5 +437,6 @@ snd_debug_proc.ko
 qrtr-smd.ko
 qrtr-mhi.ko
 qrtr-gunyah.ko
+camera.ko
 msm_drm.ko
 msm-mmrm.ko
